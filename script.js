@@ -76,8 +76,7 @@ function checkWinner() {
         } 
         else if(!playedMoves.includes("")) {
             gameWin = true
-            winnerText.textContent = `${currentPlayer} won`
-            tallyWins(currentPlayer)
+            winnerText.textContent = `its a Draw`
             break
         }
     }
