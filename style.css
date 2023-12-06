@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+#gameContainer {
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+}
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: 'Rock Salt', cursive;
+}
+
+#gameInfoContainer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#gameInfo {
+    text-align: center;
+}
+
+#resetBtn {
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#quoteContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    margin-top: 2%;
+}
+
+#quote {
+    margin-bottom: 0;
+}
+
+#quoteName {
+    margin-top: 5px;
+    margin-left: 40%;
+}
